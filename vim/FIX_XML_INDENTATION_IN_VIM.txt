@@ -1,0 +1,9 @@
+sudo apt-get install tidy
+
+vim <filename.xml>
+
+Type
+:!tidy -mi -xml %
+
+and LOAD
+
