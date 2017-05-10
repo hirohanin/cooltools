@@ -1,0 +1,2 @@
+sudo tcpdump -nvvv -G 2 -W 1 -w myfile1.pcap -i eth0 'port 80'
+tshark -r myfile1.pcap -V > networksnoop
